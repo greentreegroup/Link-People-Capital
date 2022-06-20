@@ -272,7 +272,7 @@ textarea {
 .imgbox {
     display: grid;
     height: 100%;
-    max-width: 100%;
+    width: auto;
 }
 
 .center-fit {
