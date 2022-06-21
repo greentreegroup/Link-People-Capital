@@ -183,6 +183,12 @@ section>div {
 .nav__link {
     position: relative;
     color: #fff;
+    width: auto;
+}
+
+.lan_link {
+    position: absolute;
+    float: right;
 }
 
 .nav__link:hover {
@@ -326,7 +332,20 @@ section>div {
     color: #fff;
     text-align: center;
     font-weight: var(--font-semi);
-    padding: 2rem 0;
+    padding: 1rem 0;
+    margin-top: 2rem;
+}
+
+.ft_line {
+    margin-left: 5%;
+    float: left;
+}
+
+.ft_logo {
+    margin-right: 10%;
+    float: right;
+    width: auto;
+    height: 80%;
 }
 
 .footer__title {
@@ -348,7 +367,7 @@ section>div {
     font-size: var(--smaller-font-size);
 }
 
-.featured1 {
+.featured_port_1 {
     width: 96%;
     margin-right: 2%;
     margin-left: 0%;
@@ -356,7 +375,7 @@ section>div {
     font-size: 18px;
 }
 
-.featured2 {
+.featured_port_1 {
     width: 96%;
     margin-right: 2%;
     margin-left: 2%;
