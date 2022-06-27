@@ -288,9 +288,14 @@ section>div {
 }
 
 .about__subtitle {
-    color: darkgreen;
     margin: 0 auto;
     position: relative;
+    text-align: center;
+}
+
+.subtitle_line {
+    width: 20%;
+    height: 2px;
     text-align: center;
 }
 
@@ -492,7 +497,7 @@ section>div {
         bottom: 10%;
     }
     .about__container {
-        padding-top: 2rem;
+        padding-top: 0.8rem;
     }
     .about__img img {
         width: 300px;
