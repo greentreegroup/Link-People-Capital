@@ -4,7 +4,7 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <title>Logistics</title>
+    <title>GreenTree</title>
     <link rel="icon" type="image/png" sizes="32x32" href="../favicons/6217-favicon_package_v0.16-favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="../favicons/884-favicon_package_v0.16-favicon-16x16.png">
     <link rel="manifest" href="../favicon_package_v0.16/site.webmanifest">
@@ -85,7 +85,7 @@
         <div class="img_box">
             <img src="../images/Greentree Advisors key image.png" class="center-fit" width="1000" alt="">
         </div>
-        <h1 class="title"><span class="green">L</span>ogistics</h1>
+        <h1 class="title"><span class="green">G</span>REENTREE</h1>
         <hr class="titleGreenLine" color="#26B54D">
         <hr style="visibility:hidden" />
         <hr style="visibility:hidden" />
@@ -131,25 +131,7 @@
 
     <!-- SWEET ALERT -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script>
-        var path = window.location.pathname;
-        var page = path.split("/").pop();
-        console.log(page)
 
-        function changeCN() {
-            if (page == "") {
-                page = "index.html"
-            }
-            var strLink = "cn/" + page;
-            console.log(strLink)
-            document.getElementById("chinese").setAttribute("href", strLink);
-        };
-
-        function changeEN() {
-            var strLink = page;
-            document.getElementById("english").setAttribute("href", strLink);
-        };
-    </script>
 
 </body>
 

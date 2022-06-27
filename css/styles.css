@@ -177,6 +177,7 @@ section>div {
 }
 
 .nav__item {
+    font-size: 0.9rem;
     margin-bottom: var(--mb-4);
 }
 
@@ -212,6 +213,11 @@ section>div {
 .nav__toggle {
     color: var(--second-color);
     font-size: 1.5rem;
+    cursor: pointer;
+}
+
+.nav__lan {
+    color: var(--second-color);
     cursor: pointer;
 }
 

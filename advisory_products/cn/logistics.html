@@ -131,25 +131,7 @@
 
     <!-- SWEET ALERT -->
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script>
-        var path = window.location.pathname;
-        var page = path.split("/").pop();
-        console.log(page)
 
-        function changeCN() {
-            if (page == "") {
-                page = "index.html"
-            }
-            var strLink = "cn/" + page;
-            console.log(strLink)
-            document.getElementById("chinese").setAttribute("href", strLink);
-        };
-
-        function changeEN() {
-            var strLink = page;
-            document.getElementById("english").setAttribute("href", strLink);
-        };
-    </script>
 
 </body>
 
