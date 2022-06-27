@@ -57,7 +57,7 @@ sr.reveal('.skills__data, .work__img, .contact__input', { interval: 200 });
 
 // POP UP
 function popEmail1() {
-    swal("isaacandrewrosenthal@greentree.group");
+    swal("patrickkelley@greentree.group");
 }
 
 function popCell1() {
@@ -65,7 +65,7 @@ function popCell1() {
 }
 
 function popEmail2() {
-    swal("patrickkelly@greentree.group");
+    swal("isaacandrewrosenthal@greentree.group");
 }
 
 function popCell2() {
