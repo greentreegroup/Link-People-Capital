@@ -177,7 +177,7 @@ section>div {
 }
 
 .nav__item {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
     margin-bottom: var(--mb-4);
 }
 
@@ -207,6 +207,7 @@ section>div {
 }
 
 .nav__logo {
+    right: 5%;
     color: var(--second-color);
 }
 
@@ -217,8 +218,10 @@ section>div {
 }
 
 .nav__lan {
+    position: relative;
     color: var(--second-color);
     cursor: pointer;
+    left: 5%;
 }
 
 
