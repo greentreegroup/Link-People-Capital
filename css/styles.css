@@ -177,7 +177,7 @@ section>div {
 }
 
 .nav__item {
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     margin-bottom: var(--mb-4);
 }
 
@@ -193,17 +193,7 @@ section>div {
 }
 
 .nav__link:hover {
-    position: relative;
-}
-
-.nav__link:hover::after {
-    position: absolute;
-    content: '';
-    width: 100%;
-    height: 0.18rem;
-    left: 0;
-    top: 2rem;
-    background-color: var(--first-color);
+    color: darkgreen;
 }
 
 .nav__logo {
@@ -487,6 +477,7 @@ section>div {
     .nav__list {
         display: flex;
         padding-top: 0;
+        justify-content: space-evenly;
     }
     .nav__item {
         margin-left: var(--mb-6);
