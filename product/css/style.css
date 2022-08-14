@@ -31,6 +31,10 @@
 
 * {
      box-sizing: border-box !important;
+     
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'sans-serif';
 }
 
 html {
@@ -40,7 +44,6 @@ html {
 body {
      color: #666666;
      font-size: 14px;
-     font-family: 'Poppins', sans-serif;
      line-height: 1.80857;
      font-weight: normal;
 }
@@ -151,6 +154,128 @@ a,
      transition: all .3s ease-in-out;
 }
 
+.header .navbar-brand {
+    float: left;
+    padding: 16px 15px;
+    line-height: 18px;
+    height: 50px;
+    /*color:#26B54D;*/
+}
+.header .navbar {
+    margin: 0;
+    background: #fff;
+    border: 0;
+}
+.header .navbar-nav>li>a {
+    padding: 25px 18px;
+}
+@media (min-width: 768px) {
+    .header .navbar-brand {
+        padding-left: 0;
+    }
+
+    .navbar-nav {
+        float: right;
+    }
+}
+
+@media (max-width:760px) {
+    .header .navbar-nav>li>a {
+        padding: 7px 12px;
+        font-size: 14px;
+    }
+
+    .navbar-inverse .navbar-collapse,
+    .navbar-inverse .navbar-form {
+        border-color: #A8A8A8;
+    }
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: #26B54D;
+    background-color: #26B54D;
+}
+
+.navbar-inverse .navbar-toggle .icon-bar {
+    /*background-color: #26B54D;*/
+}
+
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+    background: #26B54D;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover,
+.navbar-inverse .navbar-nav>li>a:focus {
+    color: #fff;
+}
+
+.navbar-inverse .navbar-toggle:hover .icon-bar {
+    background: #fff;
+}
+/*----Nav ----*/
+.header .navbar-brand {
+    float: left;
+    padding: 16px 15px;
+    line-height: 18px;
+    height: 50px;
+    /*color:#26B54D;*/
+}
+
+.header .container {
+    background-color: #fff;
+    padding:0%;
+}
+
+.navbar-brand b {
+    color: #26B54D;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+    color: #FF8930;
+    box-shadow: none;
+}
+
+.header .navbar {
+    margin: 0;
+    background: #fff;
+    border: 0;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+    color: #858585;
+    font-size: 1.2em;
+}
+
+.navbar-inverse .navbar-nav>.active>a,
+.navbar-inverse .navbar-nav>.active>a:hover,
+.navbar-inverse .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #26B54D;
+}
+
+.navbar-nav>li:hover {
+    background-color: #26B54D;
+}
+
+.header .navbar-nav>li>a {
+    padding: 25px 18px;
+}
+
+.navbar-brand a:hover{
+    color:orange;
+}
+
+.navbar-brand b {
+    color: #26B54D;
+}
+
+.logo {
+    font-size: 2.2em;
+    text-shadow: none;
+    margin: 8px 0 0 0;
+}
+
 img {
      max-width: 100%;
      height: auto;
@@ -248,36 +373,6 @@ button {
 
 /*-- sidebar  navigation--*/
 
-.navigation.navbar {
-     float: right;
-     padding-top: 18px !important;
-     padding-right: 30px;
-}
-
-.navigation.navbar-dark .navbar-nav .nav-link {
-     padding: 0 15px;
-     color: #fff;
-     font-size: 17px;
-     line-height: 20px;
-     font-weight: 500;
-}
-
-.navigation.navbar-dark .navbar-nav .nav-link:focus,
-.navigation.navbar-dark .navbar-nav .nav-link:hover {
-     color: #fff;
-}
-
-.navigation.navbar-dark .navbar-nav .active>.nav-link,
-.navigation.navbar-dark .navbar-nav .nav-link.active,
-.navigation.navbar-dark .navbar-nav .nav-link.show,
-.navigation.navbar-dark .navbar-nav .show>.nav-link {
-     color: #f0efeb;
-}
-
-.navbar-expand-md .navbar-nav {
-     padding-right: 10px;
-}
-
 
 /*-- marker-end sidebar  navigation--*/
 
@@ -297,20 +392,6 @@ button {
      font-weight: 500;
 }
 
-.header{
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */   
-    width: 100%;
-    padding: 30px 30px;
-    color:#fff;
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding: 30px 30px;
-    background: #00000000;
-  }
-
-.header:hover{
-    background: #cccccc33;
-}
 
 
 /** banner section **/

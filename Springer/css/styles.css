@@ -4,6 +4,7 @@ Author URI: http://webthemez.com/
 Description: This theme is a best responsive web template. It would be great for a corporate websites, business websites, personal blog.
 License: Free to use for personal and commercial, but you need to place back link in the bottom of the template.
 */
+
 @import url(http://fonts.googleapis.com/css?family=Roboto:400,900,500);
 
 * {
@@ -177,7 +178,7 @@ a:hover {
     box-shadow: none;
 }
 
-.header .navbar {
+.navbar {
     margin: 0;
     background: #fff;
     border: 0;
@@ -303,6 +304,171 @@ a:hover {
     z-index: 0;
     background-size: 2px 100%;
     background: url("../images/overlay.png") rgba(0, 0, 0, .6) !IMPORTANT;
+}
+
+.banner_main {
+    display: flex;
+    min-height: auto;
+    padding: 1%;
+    padding-top: 80px;
+}
+
+.banner_main img {
+    background-color: #66666633;
+}
+
+.bl {
+    margin-left: 4%;
+}
+
+.br {
+    margin-right: 4%;
+}
+
+
+.contactform {
+    background-image: "images/ok4.jpeg";
+}
+
+.name {
+    padding-top: 40px;
+    background: url(../images/service_bg.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: block;
+    font-size: 29px;
+    font-weight: bold;
+}
+
+.two-col-info {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1450px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 340px 1fr;
+}
+
+.two-col-info2 {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1450px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 340px;
+}
+
+.two-left {
+    padding: 40px 40px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.two-left li {
+    margin: 10px;
+    padding-bottom: 10px;
+    color: #fff;
+    border-bottom: 1px solid #555555;
+}
+
+.two-right {
+    padding: 10px 30px;
+    font-size: 20px;
+    margin-left: 20px;
+    color: #000;
+
+}
+
+.two-right a button {
+    padding: 8px 26px;
+    border: 2px solid #000;
+    background-color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+}
+
+.some-text {
+    margin-bottom: 30px;
+}
+
+.feature {
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    max-width: 1450px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.feature h2 {
+    border-bottom: 1px solid #66666666;
+    padding: 2%;
+    margin-right: 10px;
+    color: #26B54D;
+}
+
+.fblock {
+    padding: 8px 8px;
+    line-height: 1.6em;
+
+}
+
+.fblock li {
+    padding: 5px 5px;
+    display: flex;
+}
+
+.fblock li b {
+    letter-spacing: 1.9px;
+    color: #878787;
+    line-height: 23px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 350;
+    width: 41%;
+    padding-right: 30px;
+}
+
+.fblock li span {
+    letter-spacing: 1px;
+    color: #878787;
+    font-style: italic;
+    line-height: 23px;
+    font-size: 15px;
+    font-weight: 280;
+    width: 59%;
+}
+
+.gallery ul {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gallery li {
+    height: 40vh;
+    flex-grow: 1;
+}
+
+.gallery li img {
+    width: 10%;
+    object-fit: cover;
+    vertical-align: bottom;
 }
 
 .banner-container {
