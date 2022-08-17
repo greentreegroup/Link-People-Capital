@@ -511,7 +511,12 @@ a:hover {
 .fblock {
     padding: 8px 8px;
     line-height: 1.6em;
+}
 
+.fblock h2{
+    color:#000;
+    background-color:#858585;
+    border-radius: 5%;
 }
 
 .fblock li {
@@ -521,7 +526,7 @@ a:hover {
 
 .fblock li b {
     letter-spacing: 1.9px;
-    color: #878787;
+    color: #000;
     line-height: 23px;
     font-size: 15px;
     text-transform: uppercase;
@@ -543,12 +548,12 @@ a:hover {
 .gallery_collection {
     width: 100%;
     margin: 2%;
+    justify-content: center;
 }
 
 .gallery {
-    margin: auto;
+    float:left;
     border: 1px solid #ccc;
-    float: left;
     width: 300px;
     height:250px;
     padding-bottom: 50px;
@@ -978,6 +983,7 @@ footer ul li {
     }
 
     .gallery {
+
         margin:auto;
         float:none;
         width: 80%;
