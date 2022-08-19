@@ -235,7 +235,7 @@ a:hover {
 	font-size: 48px;
 	float: left;
 	width: 20%;
-	color: #DF4A43;
+	color: #26B54D;
 	height: 100%;
 	position: relative;
 	opacity: 0.6;
@@ -740,7 +740,70 @@ padding:100px 0;
 .navbar-default .navbar-toggle {
   border-color: #FFF;
 }
-index.htmlmedia="screen"
+/* index.htmlmedia="screen"; */
+.feature {
+    width: 100%;
+    max-width: 1450px;
+    min-height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0px;
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.feature h2 {
+    border-bottom: 1px solid #66666633;
+    padding: 2%;
+    margin-right: 10px;
+    color: #26B54D;
+}
+
+.featurel {
+    margin: 1.5%;
+}
+
+.featurer {
+    margin: 1.5%;
+}
+
+.fblock {
+    padding: 8px 8px;
+    line-height: 1.6em;
+}
+
+.fblock h2 {
+    font-style: bold;
+    border-radius: 5px;
+}
+
+.fblock li {
+    padding: 5px 5px;
+    display: flex;
+    
+}
+
+.fblock li b {
+    letter-spacing: 1.9px;
+    color: #000;
+    line-height: 23px;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: 350;
+    width: 41%;
+    padding-right: 30px;
+}
+
+.fblock li span {
+    letter-spacing: 1px;
+    color: #878787;
+    font-style: italic;
+    line-height: 23px;
+    font-size: 15px;
+    font-weight: 280;
+    width: 59%;
+}
 .navbar-toggle {
   position: relative;
   float: right;
