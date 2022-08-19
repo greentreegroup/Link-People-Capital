@@ -802,11 +802,14 @@ padding:100px 0;
   border-radius: 0;
 }
 
-@media (max-width : 1024px) {
+@media (max-width : 800px) {
     .fblock {
         grid-template-columns: 1fr;
     }
 }
+
+
+
 /* iPads (portrait) ----------- */
 @media only screen 
 and (min-width : 768px) 
