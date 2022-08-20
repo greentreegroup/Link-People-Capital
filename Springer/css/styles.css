@@ -479,6 +479,7 @@ a:hover {
     margin-bottom: 30px;
 }
 
+
 .feature {
     width: 100%;
     padding-left: 30px;
@@ -494,10 +495,11 @@ a:hover {
 }
 
 .feature h2 {
-    border-bottom: 1px solid #66666666;
+    border-bottom: 1px solid #66666633;
     padding: 2%;
     margin-right: 10px;
     color: #b2db23;
+    background-color: #47893f;
 }
 
 .featurel {
@@ -513,15 +515,16 @@ a:hover {
     line-height: 1.6em;
 }
 
-.fblock h2{
-    color:#000;
-    background-color:#858585;
-    border-radius: 5%;
+.fblock h2 {
+    background:#26B54D11;
+    font-style: oblique;
+    border-radius: 5px;
 }
 
 .fblock li {
     padding: 5px 5px;
     display: flex;
+    
 }
 
 .fblock li b {
@@ -546,6 +549,7 @@ a:hover {
 }
 
 .gallery_collection {
+    margin-top: 20px;
     width: 100%;
     justify-content: center;
     display:grid;
@@ -553,20 +557,23 @@ a:hover {
 }
 
 .gallery {
-    border: 1px solid #ccc;
-    padding-bottom: 50px;
-    height:340px;
+    margin:1%;
+    border: 2px solid #eee;
+    max-height:auto;
+    border-radius: 5px;
 }
 
 
 .gallery:hover {
-    border: 1px solid #777;
+    border: 2px solid #b2db23;
 }
 
 .gallery img {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
     object-fit: cover;
     width: 100%;
-    height: 250px;
+    height:290px;
 }
 
 .desc {
