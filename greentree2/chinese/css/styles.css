@@ -806,6 +806,13 @@ padding:100px 0;
     .fblock {
         grid-template-columns: 1fr;
     }
+    .fblock span{
+        display:flex;
+        float:right;
+    }
+    .feature {
+        margin: 10px 10px;
+    }
 }
 
 
