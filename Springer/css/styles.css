@@ -1036,7 +1036,7 @@ footer ul li {
     .da-slider {
         width: 100%;
         min-width: initial;
-        height:fit-content;
+        height:400px;
         margin: 0px auto;
         /* display:none; */
     }
