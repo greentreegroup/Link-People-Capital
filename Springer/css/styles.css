@@ -10,11 +10,11 @@ License: Free to use for personal and commercial, but you need to place back lin
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', 'sans-serif';
+    font-family: 'Times NEW roman', 'sans-serif';
 }
 
 body {
-    font-size: 17px;
+    font-size: 20px;
     font-family: 'Roboto', 'sans-serif';
     -webkit-font-smoothing: antialiased;
     background: #fff;
@@ -47,7 +47,7 @@ p {
     padding: 10px 25px;
     border: 2px solid #fff;
     border-radius: 0px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 400;
     background: rgba(255, 255, 255, 0.15);
 }
@@ -184,7 +184,7 @@ a:hover {
 
 .navbar-inverse .navbar-nav>li>a {
     color: #858585;
-    font-size: 1.2em;
+    font-size: 20px;
 }
 
 .navbar-inverse .navbar-nav>.active>a,
@@ -206,11 +206,11 @@ a:hover {
 .dropdown .dropbtn {
     display:block;
     position:relative;
-    font-size: 1.2em;
+    font-size: 20px;
     border: none;
     outline: none;
     color: #858585;
-    padding: 23px 18px;
+    padding: 0;
     background-color: inherit;
     font-family: inherit;
     /* Important for vertical align on mobile phones */
@@ -223,7 +223,7 @@ a:hover {
 .dropdown-content {
     display: none;
     position: solute;
-    background-color: #f8f8f8;
+    background-color: #ffffffdc;
     min-width: 128px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
@@ -654,7 +654,7 @@ a:hover {
 }
 
 .heading h1 {
-    font-size: 2.7em;
+    font-size: 2.5em;
 }
 
 .heading p {
@@ -705,10 +705,12 @@ a:hover {
 }
 
 .team-member .member-img img {
-    max-width: 250px;
+    width: 100%;
     margin: 0 auto;
-    /*border:2px #D3D3D3 solid;*/
+    border:2px #D3D3D3 solid;
 }
+
+#more {display: none;}
 
 .team-member h3 {
     font-size: 22px;
@@ -1014,6 +1016,8 @@ footer ul li {
 }
 
 @media (max-width: 768px) {
+
+    
     .banner-container {
         background-size: cover;
     }
@@ -1034,8 +1038,9 @@ footer ul li {
     .da-slider {
         width: 100%;
         min-width: initial;
-        height: 400px;
+        height:400px;
         margin: 0px auto;
+        /* display:none; */
     }
 
     .header .navbar-nav>li>a {
