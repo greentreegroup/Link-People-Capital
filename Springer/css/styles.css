@@ -728,18 +728,15 @@ a:hover {
 
 .team-member h3 {
     font-weight: 600;
-    font-size: 28px;
+    font-size: 32px;
     line-height: 32px;
-    margin: 10px 0 0 15px;
     /*text-align:center;*/
 }
 
 .team-member .pos {
-    font-weight: 600;
+    font-weight: 650;
     font-size: 22px;
     display: block;
-    color: #dee;
-    margin: 10px 0 10px 15px;
     /*text-align:center;*/
 }
 
@@ -754,8 +751,17 @@ a:hover {
     padding: 5px 15px;
 }
 
-.team-member {
-    background: rgb(106, 170, 114);;
+.team-member-index{
+    margin: 0px 12px 0px 12px;
+    padding:0%;
+    
+    text-align: center;
+    height: 570px;
+}
+
+.team-member-index h3 {
+    color:rgb(36, 180, 34);
+    /* padding-bottom:15px; */
 }
 
 /* ------- */
@@ -1024,6 +1030,7 @@ footer ul li {
     background-color: rgb(36, 180, 34);
 }
 
+
 .team-content p{
     color :#fff;
     font-weight: 300px;
@@ -1082,6 +1089,7 @@ footer ul li {
 
     .team-member .member-img img {
         max-width: 100%;
+
     }
 
     .banner-container {
