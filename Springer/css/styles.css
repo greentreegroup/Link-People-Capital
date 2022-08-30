@@ -1016,6 +1016,19 @@ footer ul li {
 #aboutUs p {
     text-align: left;
 }
+.index_back {
+    /* background-color: rgb(46, 170, 44); */
+    /* background-color: rgb(46, 170, 14); */
+    /* background-color: rgb(16, 170, 14); */
+    /* background-color: rgb(116, 200, 114); */
+    background-color: rgb(36, 180, 34);
+}
+
+.team-content p{
+    color :#fff;
+    font-weight: 300px;
+    color:#000;
+}
 
 @media (min-width: 768px) {
     .header .navbar-brand {
