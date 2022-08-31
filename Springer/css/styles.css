@@ -772,6 +772,16 @@ a:hover {
     /* padding-bottom:15px; */
 }
 
+.team-member-index img{
+    margin: 5px;
+    /* border:1px solid #2a8c2d; */
+}
+
+.team-member-index img:hover{
+    padding: none;
+    /* border:1px solid #2a8c2d; */
+}
+
 /* ------- */
 
 .isotopeWrapper article {
