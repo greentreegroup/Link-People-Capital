@@ -10,12 +10,12 @@ License: Free to use for personal and commercial, but you need to place back lin
 * {
     margin: 0;
     padding: 0;
-    font-family: 'Times NEW roman', 'sans-serif';
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
 body {
     font-size: 20px;
-    font-family: 'Roboto', 'sans-serif';
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
     -webkit-font-smoothing: antialiased;
     background: #fff;
 }
@@ -35,7 +35,8 @@ p {
 }
 
 .pDark p {
-    color: #000000;
+    color: #111111b3;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
 }
 
 .button-outline {
@@ -285,7 +286,7 @@ a:hover {
 }
 
 .darkBg {
-    background: #2a8c2d;
+    background: #2a8c2dcc;
 }
 
 
@@ -344,6 +345,12 @@ a:hover {
     background-size: cover;
 }
 
+.banner-container_multi h2{
+    display:flex;
+    padding:5px;
+    background-color: #24242466;
+}
+
 .banner-container_mix {
     width: 100%;
     position: relative;
@@ -384,6 +391,7 @@ a:hover {
 .bannerOverlay {
     content: '';
     width: 100%;
+    
 }
 
 .banner-content {
@@ -393,8 +401,7 @@ a:hover {
 
 .banner-content h2 {
     color: #fff;
-
-    font-size: 3.5em;
+    font-size: 3em;
     margin: 2% 0 30px;
     line-height: 1.2em;
 }
@@ -752,15 +759,16 @@ a:hover {
 }
 
 .team-member-index{
-    margin: 0px 12px 0px 12px;
+
+    margin: 10px 12px 10px 12px;
     padding:0%;
-    
     text-align: center;
-    height: 570px;
+    height: auto;
 }
 
 .team-member-index h3 {
-    color:rgb(36, 180, 34);
+    /* color:rgb(36, 180, 34); */
+    color:#2a8c2d;
     /* padding-bottom:15px; */
 }
 
@@ -936,6 +944,16 @@ nav#filter a {
     text-shadow: none;
 }
 
+.bottom-menu {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.bottom-menu li{
+    
+    line-height: 18px;
+}
+
 .back-to-top:hover {
     background: #333;
     color: #fff;
@@ -1019,9 +1037,7 @@ footer ul li {
     margin-right: 15px;
 }
 
-#aboutUs p {
-    text-align: left;
-}
+
 .index_back {
     /* background-color: rgb(46, 170, 44); */
     /* background-color: rgb(46, 170, 14); */
@@ -1141,18 +1157,27 @@ footer ul li {
     .port-content {
         grid-template-columns: 1fr;
     }
+    .logo {
+        margin:0px;
+        padding:none;
+        font-size: 1.8em;
+    }
+    .banner-content h2{
+        font-size: 1.8em;
+    }
 
 }
 
 @media (max-width:760px) {
+    .logo {
+        margin:0px;
+        padding:none;
+        font-size: 1.8em;
+    }
 
     .header .navbar-nav>li>a {
         padding: 7px 12px;
         font-size: 14px;
-    }
-
-    .dropdown {
-        padding: 7px 12px;
     }
 
     .dropdown .dropbtn {
