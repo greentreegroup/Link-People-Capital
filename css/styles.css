@@ -128,8 +128,8 @@ section>div {
 
 .logo {
     background: url("/path") no-repeat;
-    width: 50px;
-    height: 50px;
+    width: 100px;
+    height: 70px;
     display: block;
     text-indent: -9999px;
 }
@@ -366,24 +366,26 @@ section>div {
 /* ===== FOOTER =====*/
 
 .footer {
-    background-color: var(--second-color);
+    background-color: grey/*var(--second-color)*/;
     color: #fff;
     text-align: center;
     font-weight: var(--font-semi);
-    padding: 1rem 0;
+    padding: 0rem 0;
     margin-top: 2rem;
 }
 
 .ft_line {
     margin-left: 5%;
+    margin-top: 3%;
     float: left;
 }
 
 .ft_logo {
-    margin-right: 10%;
+    margin-right: 0%;
     float: right;
     width: auto;
-    height: 80%;
+    height: 105px;
+
 }
 
 
