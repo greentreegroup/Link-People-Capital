@@ -139,6 +139,7 @@ article {
 }
 
 .featured2 {
+    display: block;
     width: 42%;
     margin-right: 0%;
     margin-left: 6%;
@@ -260,7 +261,7 @@ article {
 }
 
 footer {
-    height: 105px;
+    height: 120px;
     width: 100%;
     box-sizing: border-box;
     background-color: #131313;
@@ -304,7 +305,7 @@ footer {
         margin-right: 0%;
     }
     footer {
-        height: 105px;
+        height: 120px;
     }
     #logo1 img {
         width: 100px;
@@ -356,8 +357,8 @@ footer {
         font-size: 18px;
     }
     .featured2 {
-        margin-right: 2%;
-        margin-left: 2%;
+        text-align: justify;
+        width: 90%;
         font-family: Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
         font-size: 22px;
     }
